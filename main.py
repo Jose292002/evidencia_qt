@@ -37,10 +37,10 @@ class Formulario(QMainWindow): #Creamos la clase formulario y heredamos la clase
         self.frame_superior.mouseMoveEvent = self.mover_ventana
 
         #BOTONES
-        self.bt_importar_img.clicked.connect(self.load_image)#Para que nos lea la imagen en el guion 
-        self.bt_limpiar.clicked.connect(self.clear_data)#Para eliminar los datos que hemos ingresado en el guion 
-        self.bt_guardar.clicked.connect(self.save_data)#Para guardar los datos que hemos ingresado en el guion 
-        self.bt_buscar.clicked.connect(self.search_data)#Para buscar en el guion 
+        self.bt_importar_img.clicked.connect(self.load_image)#Para que nos lea la imagen en el guion 57
+        self.bt_limpiar.clicked.connect(self.clear_data)#Para eliminar los datos que hemos ingresado en el guion 64
+        self.bt_guardar.clicked.connect(self.save_data)#Para guardar los datos que hemos ingresado en el guion 70
+        self.bt_buscar.clicked.connect(self.search_data)#Para buscar en el guion 100
 
         self.shadow_frame(self.frame_datos)
         self.shadow_frame(self.frame_buscar)
